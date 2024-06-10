@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+<body>
+    
+    <div class="container">
+            <button class="button button--dark" id="add-student-btn">Add room</button>
+        <form class="form add-room-form" id="add-student-form">
+                <input id="student-id" type="number" placeholder="Enter your id" required>
+                <input id="student-name" type="text" placeholder="Enter your name" required>
+                <input id="student-surname" type="text" placeholder="Enter your surname" required>
+                <input id="student-age" type="number" placeholder="Enter your age" required>
+            <div>
+                <button class="button button--dark" type="submit">Create new room </button>
+                <button id="cancel-form-btn" type="reset" class="button button--light" type="submit">Cancel </button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
